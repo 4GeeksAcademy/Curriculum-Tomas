@@ -1,0 +1,94 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Tomas
+    last_name: Uhia
+    
+    # Define yourself in 4-5 words
+    motto: Me gusta aprender cosas nuevas
+    
+    # Focus
+    focus: Desarrolarme personalmente
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Mi nombre es Tomás, durante mis estudios he estado en contacto con diferentes tecnologias tales como; HTML5, CSS3, JAVA, JavaScript, PHP, MySql, Python,
+      C#, Bootstrap5, React, SQL, BBDD relacionales etc... además de manejar diferentes programas como; Android Studio, Visual Studio, Visual Studio Code, Wordpress, 
+      PhpMyAdmin, Oracle IDE etc... Mis estudios se basaron tanto en la programacion web como para dispositivos móviles y aplicaciones de escritorio.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: tomasuhiaotero@gmail.com #optional
+    phone:  #optional
+    website:  #optional
+    linkedin: www.linkedin.com/in/tomás-uhía-otero-b10748345 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: TomasUhiaOtero
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Galician
+        level: Native
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Videogames
+
+      - item: Music
+
+      - item: Basketball
+
+# Your previous education
+education:
+    - degree: Ciclo Grado Superior DAM
+      university: Tesdai Santiago de Compostela
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2022 - 2024
+      details: |
+        He estudiado tanto tecnologias para desarrollar aplicaciones móviles como de escritorio como páginas web.
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: UI Developer
+      time: 2024 - 2025
+      company: LoggForSport, Pontevedra
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        He trabajado desarrollando una página web corporativa plenamente funcional desde cero.
+
+skills:
+    toolset:
+      - name: JavaScript & jQuery
+        level: 78%
+
+      - name: React
+        level: 68%
+
+      - name: HTML5 & CSS
+        level: 95%
